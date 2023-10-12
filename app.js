@@ -44,5 +44,5 @@ if (userWord === reverse) {
 //# Pari e Dispari
 //- Chiedere all'utente, con un prompt, di scegliere tra pari e dispari, inserendo un numero da 1 a 5
 let choose = prompt('Pari o Dispari?');
-//- Dichiarire una variabile che sia falsa
-let 
+//- chiedere all'utente di scegliere un numero
+let numberUser = prompt('Inserisci un numero da 1 a 5');
