@@ -21,10 +21,28 @@ let arrayReverse = wordsArray.reverse();
 let arrayJoin = arrayReverse.join('');
 //- controllare la palindromia
     //- SE la parola inserita dall'utente è identica a arrayJoin
-if (userWord === arrayJoin) { //- ALLORA stamperà che l aparola è palindroma
+if (userWord === arrayJoin) { //- ALLORA stamperà che la parola è palindroma
     console.log('La parola' + userWord + 'è palindroma');
 } else {
     console.log('La parola' + userWord + 'non è palindroma');
 }
 
+/* ALTERNATIVA CON CICLO FOR */
+/* let userWord = prompt('Inserisci una parola');
+let reverse = '';
+for (let i = userWord.length -1; i = 0; i--) {
+    reverse += userWord[i];
+}
 
+if (userWord === reverse) {
+    console.log('La parola è palindroma');
+} else {
+    console.log('La parola non è palindroma');
+}*/
+
+
+//# Pari e Dispari
+//- Chiedere all'utente, con un prompt, di scegliere tra pari e dispari, inserendo un numero da 1 a 5
+let choose = prompt('Pari o Dispari?');
+//- Dichiarire una variabile che sia falsa
+let 
